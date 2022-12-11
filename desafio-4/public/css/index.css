@@ -1,0 +1,25 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+.enviar {
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+}
+
+body {
+  text-align: center;
+}
