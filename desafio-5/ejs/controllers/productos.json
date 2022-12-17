@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Mouse de juego recargable Free Wolf X8 black",
+        "price": 1500,
+        "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_838078-MLA32845042779_112019-O.webp"
+    },
+    {
+        "id": 2,
+        "title": "Mouse de juego Razer Basilisk X Hyperspeed",
+        "price": 1500,
+        "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_672017-MLA43274410103_082020-O.webp"
+    },
+    {
+        "id": 3,
+        "title": "Mouse Inalambrico Ligero 11 Modos",
+        "price": 1500,
+        "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_987455-MLA48736885896_012022-O.webp"
+    },
+    {
+        "id": 4,
+        "title": "Set Teclado Daihatsu + Mouse Gamer",
+        "price": 1500,
+        "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_658379-MLA48195010354_112021-O.webp"
+    },
+    {
+        "id": 5,
+        "title": "Mouse Pad gamer Logitech G240",
+        "price": "1699",
+        "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_634717-MLA40721130270_022020-O.webp"
+    }
+]
