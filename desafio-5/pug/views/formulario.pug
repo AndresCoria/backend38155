@@ -1,0 +1,15 @@
+html(lang="en")
+    head
+        title='Formulario en PUG'
+    body
+        a(href="/productos")='Lista de Productos'
+        h1='Agregar producto:'
+        form(action="/" method="post")
+            label(for="title")='Nombre del producto:'
+            input(type="text" id="title" name="title")
+            label(for="price")='Precio del producto:'
+            input(type="text" id="price" name="price")
+            label(for="thumbnail")='Imagen del producto:'
+            input(type="text" id="thumbnail" name="thumbnail")
+            input(type="submit" value="Enviar")
+            button(type="submit" value="Cargar Producto")

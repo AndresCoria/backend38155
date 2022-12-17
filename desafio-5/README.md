@@ -1,0 +1,2 @@
+Eleccion entre los lenguajes
+Luego de hacer este pequeño proyecto con los  tres lenguajes el que mas me parece practico es Handlebars. Me parece  muchisimo mas intuitivo y dinamico que los otros dos y tambien tiene a favor el poder usar Templates.

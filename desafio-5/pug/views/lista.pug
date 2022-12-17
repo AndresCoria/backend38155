@@ -1,0 +1,30 @@
+html(lang="en")
+    head
+        link(rel="stylesheet", href="pug\css\lista.css"
+        )
+        title='Lista en PUG'
+    body
+        a(
+            href="/"
+        )='Ingresar un producto'
+        h2='Productos'
+        if productos.length !== 0
+            table
+                tr
+                    th='Nombre'
+                    th='Precio'
+                    th='Imagen'
+
+                each i in productos
+                    tr
+                        td= i.title
+                        td= i.price
+                        <td>
+                            img(
+                            .img
+                            src=i.thumbnail
+                            alt="imagen del producto"
+                            )
+
+        else
+            h3='No hay productos agregados!'
