@@ -1,13 +1,47 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
 h1 {
   text-align: center;
+  background-color: lightblue;
 }
+
 form {
   display: flex;
   flex-direction: column;
   max-width: 100%;
   align-items: center;
+  background-color: lightblue;
 }
 
 button {
   margin-top: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+.estilo {
+  display: flex;
+  justify-content: center
+}
+
+tr {
+  padding: 20;
+}
+
+img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.submit {
+  margin-bottom: 15px;
+}
+
+.yowi {
+  display: flex;
+  justify-content: center;
 }
