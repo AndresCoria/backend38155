@@ -14,7 +14,6 @@ const notFound = { error: "Producto no encontrado" };
 
 router.get("/", async (req, res) => {
     const arrayProductos = await productos.getAll();
-    console.log(arrayProductos);
     res.render("formulario", {
         productos: arrayProductos,
         style: "formulario.css",

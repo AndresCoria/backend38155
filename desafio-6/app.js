@@ -46,9 +46,19 @@ app.post("/", async (req, res) => {
     console.log(`post req recibida con exito`);
     const data = req.body;
     console.log(data);
-    const nuevoProducto = await productos.save(data);
-    !data && res.status(204).json(notFound);
-    res.status(201).render("formulario", {});
+
+    if (!data) {
+        res.status(204).json(notFound);
+    }
+
+    await productos.save(data);
+    const arrayProductos = await productos.getAll();
+
+    res.status(201).render("formulario", {
+        productos: arrayProductos,
+        style: "formulario.css",
+        title: "Productos con Handlebars",
+    });
 });
 
 httpServer.listen(PORT, () => {

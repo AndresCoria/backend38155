@@ -104,12 +104,12 @@ class Contenedor {
         /* chequeo si existe el documento */
         try {
             if (this.exists(this.archivo)) {
-                console.log(`Leyendo archivo...`);
+                //console.log(`Leyendo archivo...`);
                 const data = await this.readFile(this.archivo);
                 /* una vez que verifico si existe, veo si esta vacio o tiene contenido */
                 if (data.length !== 0) {
-                    console.log(`Archivo con contenido:`);
-                    console.log(data);
+                    //console.log(`Archivo con contenido:`);
+                    //console.log(data);
                     return data;
                 } else {
                     throw new Error(`El archivo ${this.archivo} esta vacio`);
