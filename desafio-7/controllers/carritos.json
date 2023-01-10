@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "timestamp": 1669243905284,
+        "codigo": "udk6L1zaZv",
+        "productos": [
+            {
+                "id": 1,
+                "timestamp": 1669243422458,
+                "codigo": "wwFCtn264M",
+                "nombre": "Silla Gamer",
+                "descripcion": "Silla ergonomica ideal para jugar o trabajar en la computadora",
+                "precio": 60000,
+                "foto": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/720/526/products/diseno-sin-titulo-5121-bd311cff4d158548d516372654110148-1024-1024.jpg",
+                "stock": 23
+            },
+            {
+                "id": 2,
+                "timestamp": 1669243433692,
+                "codigo": "ZYtYEhAj3P",
+                "nombre": "Joystick PS5",
+                "descripcion": "Joystick original para PS5",
+                "precio": 25000,
+                "foto": "https://images.fravega.com/f1000/a23c2e9cbe114eca833fc5f7288457fc.jpg",
+                "stock": 16
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "timestamp": 1669243907715,
+        "codigo": "p76jhZoBS7",
+        "productos": [
+            {
+                "id": 3,
+                "timestamp": 1669243446152,
+                "codigo": "3yqjWSaeVf",
+                "nombre": "Auriculares PS5",
+                "descripcion": "Auriculares originales con la mejor calidad de sonido para la PS5",
+                "precio": 42000,
+                "foto": "https://arsonyb2c.vtexassets.com/arquivos/ids/348062/PS5_WHS_Pshot_A.jpg?v=637363806123470000",
+                "stock": 8
+            }
+        ]
+    }
+]
